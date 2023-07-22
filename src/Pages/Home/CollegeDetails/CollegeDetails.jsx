@@ -23,31 +23,46 @@ const CollegeDetails = () => {
             {/* ----------------------------Research work---------------------------------
             -------------------------------------------------------------------
             ----------------------------Research work-------------------------------- */}
-            <div className='bg-[--second-bg-color] '>
+            <div className='bg-[--second-bg-color] pb-5'>
                 <h2 className='font-bold text-[--text-color] text-5xl text-center py-5'>Research <span className='text-[--main-color]'>Works</span></h2>
                 <div className=''>
                     {
-                        research_works.map(item => <VerticalTimeline>
+                        research_works.map((item, index) => <VerticalTimeline key={index}>
                             <VerticalTimelineElement
                                 className="vertical-timeline-element--work"
                                 contentStyle={{ background: '#081b29', color: '#ededed' }}
                                 contentArrowStyle={{ borderRight: '7px solid  #081b29' }}
-                                date="2011 - present"
+                                date={item.publication_date}
                                 iconStyle={{ background: '#081b29', color: '#fff' }}
                             // icon={<WorkIcon />}
                             >
-                                <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                                <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-                                <p>
-                                    Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-                                </p>
+                                <h3 className="text-xl font-bold ">Title of Resurce: <span className='font-normal text-lg'>{item.title}</span></h3>
+                                <h4 className="text-xl font-bold">Author: <span className='font-normal text-lg'>{item.author}</span></h4>
+                                <h3 className="text-xl font-bold">Publication date: <span className='font-normal text-lg'>{item.publication_date} </span> </h3>
                             </VerticalTimelineElement>
                         </VerticalTimeline>)
                     }
                 </div>
+            </div>
 
+            <div>
+                <h2 className='font-bold text-[--text-color] text-5xl text-center py-5'>Eve<span className='text-[--main-color]'>nts</span></h2>
+                <div className='md:mx-[160px]'>
+                    {
+                        events.map((item, index) => <div key={index}>
+                            <div className="grid grid-cols-1 md:grid-cols-2 bg-[--second-bg-color] rounded-md items-center shadow-xl mb-5">
+                                <figure className='p-7'><img className='md:h-[250px] md:w-[450px] rounded-md' src={item.image} alt="Album" /></figure>
+                                <div className=" text-[--text-color]">
+                                    <h3 className="text-xl font-bold ">Events Name: <span className='font-normal text-lg'>{item.name}</span></h3>
+                                    <h3 className="text-xl font-bold ">Location of Events: <span className='font-normal text-lg'>{item.location}</span></h3>
+                                    <h3 className="text-xl font-bold "> Date: <span className='font-normal text-lg'>{item.date}</span></h3>
+                                   
+                                </div>
 
-
+                            </div>
+                        </div>)
+                    }
+                </div>
             </div>
 
         </div>
