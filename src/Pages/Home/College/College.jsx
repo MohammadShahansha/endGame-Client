@@ -45,7 +45,7 @@ const College = () => {
                             <p className='text-xl'>{college.research_history}</p>
 
                             <div className="card-actions justify-end">
-                               <Link to={`/college/${college._id}`} className='bg-[--main-color] text-[--bg-color] py-3 px-5 rounded-md text-xl font-medium'>See Details</Link>
+                               <Link to={`/eachCollege/${college._id}`} className='bg-[--main-color] text-[--bg-color] py-3 px-5 rounded-md text-xl font-medium'>See Details</Link>
                             </div>
                         </div>
 

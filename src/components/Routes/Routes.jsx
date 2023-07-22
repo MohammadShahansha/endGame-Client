@@ -20,9 +20,9 @@ import CollegeDetails from "../../Pages/Home/CollegeDetails/CollegeDetails";
             element: <Login></Login>
         },
         {
-            path: "college/:id",
+            path: "eachCollege/:id",
             element: <CollegeDetails></CollegeDetails>,
-            loader: ({params}) => fetch(`https://assignment-ten-server-site-mohammadshahansha.vercel.app/chefrecipe/${params.id}`)
+            loader: ({params}) => fetch(`http://localhost:5000/eachCollege/${params.id}`)
         }
       ]
     },
