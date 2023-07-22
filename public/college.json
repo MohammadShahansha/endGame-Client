@@ -1,0 +1,295 @@
+[
+    {
+        "image": "https://images.prothomalo.com/prothomalo-english/2020-10/5a584035-0d18-4ab5-8676-5b14f5d370ce/du.webp?w=1200&h=572",
+        "name": "Dhaka University",
+        "admission_dates": "September 2023",
+        "events": [
+            {
+                "name": "Orientation Day",
+                "date": "August 15, 2023",
+                "location": "College Campus",
+                "image":"https://img.freepik.com/free-photo/meeting-mature-office-showing-presenter_1262-2083.jpg?w=996&t=st=1690031770~exp=1690032370~hmac=ea7715fe3e2fe6207a87f5c9cc5470552a17e1506de934be4d745b37267039cb"
+            },
+            {
+                "name": "Sports Fest",
+                "date": "October 20-22, 2023",
+                "location": "Sports Complex",
+                "image":"https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?w=996&t=st=1690031901~exp=1690032501~hmac=d92a0f93aac994af46d20450bec882e7b9fd00149d25978c5bfa31a93810cb05"
+            },
+            {
+                "name": "Research Symposium",
+                "date": "November 30, 2023",
+                "location": "Conference Hall",
+                "image":"https://img.freepik.com/free-vector/business-conference-illustration-with-speaker-stage-audience-cartoon-characters-scientific-presentation-academic-symposium-professional-briefing_575670-644.jpg?w=1060&t=st=1690031989~exp=1690032589~hmac=0278945118cfb881fb780c2896a5e34179b0d1b09f267fbf414f23726eb54a42"
+            }
+        ],
+        "research_history": "College A has a rich history of groundbreaking research in various fields.",
+        "sports": [
+            {
+                "name": "Football",
+                "team": "Lions",
+                "achievements": "Multiple regional championships",
+                "image":"https://img.freepik.com/free-photo/soccer-players-action-professional-stadium_654080-1130.jpg?w=1060&t=st=1690026383~exp=1690026983~hmac=16f3fc832970cd054bb5693a6c6ff275050c93f294472b9d9043771949181bd6"
+            },
+            {
+                "name": "Basketball",
+                "team": "Tigers",
+                "achievements": "National runners-up in 2022",
+                "image":"https://img.freepik.com/free-photo/black-man-doing-sports-playing-basketball-sunrise-jumping-silhouette_285396-1440.jpg?w=996&t=st=1690031090~exp=1690031690~hmac=4f811948faadddb578b0ac2dc5b70b3e139cb60a9debf7e992f0d26c61be411d"
+            },
+            {
+                "name": "Swimming",
+                "team": "Sharks",
+                "achievements": "Olympic medalists",
+                "image":"https://img.freepik.com/free-photo/male-swimmer-swimming-butterfly-stroke_171337-7613.jpg?w=996&t=st=1690031171~exp=1690031771~hmac=0523d1e408d45a8331140fa2381f7bc7224ed8cd8cf121d8f5feb8bcd8124c24"
+            }
+        ],
+        "admission_process": "To apply for admission, students can visit the college website, fill out the online application form, and submit the required documents.",
+        "research_works": [
+            {
+                "title": "The Impact of Regular Exercise on Student Performance",
+                "author": "John Doe",
+                "publication_date": "May 2022"
+            },
+            {
+                "title": "Nutrition and Athletic Performance: A Comprehensive Study",
+                "author": "Jane Smith",
+                "publication_date": "July 2023"
+            },
+            {
+                "title": "Innovations in Renewable Energy Systems",
+                "author": "David Williams",
+                "publication_date": "March 2023"
+            },
+            {
+                "title": "Advancements in Artificial Intelligence: A Case Study",
+                "author": "Emily Brown",
+                "publication_date": "May 2023"
+            },
+            {
+                "title": "Biomechanics of Cricket Bowling Techniques",
+                "author": "Michael Johnson",
+                "publication_date": "April 2023"
+            },
+            {
+                "title": "Analyzing the Impact of Footwear on Badminton Performance",
+                "author": "Sarah Lee",
+                "publication_date": "June 2023"
+            }
+        ],
+        "sports_category": [
+            {
+                "category_name": "Team Sports",
+                "sports": [
+                    "Football",
+                    "Basketball",
+                    "Volleyball"
+                ]
+            },
+            {
+                "category_name": "Individual Sports",
+                "sports": [
+                    "Swimming",
+                    "Tennis",
+                    "Athletics"
+                ]
+            }
+        ]
+    },
+    {
+        "image": "https://www.cou.ac.bd/public/upload/slider/20230215_1676457849.jpg",
+        "name": "Comilla University",
+        "admission_dates":"January 2024",
+        "events": [
+            {
+                "name": "Welcome Week",
+                "date": "July 30, 2023",
+                "location": "Campus",
+                "image":"https://img.freepik.com/free-vector/realistic-back-school-background_52683-43399.jpg?w=996&t=st=1690034630~exp=1690035230~hmac=c68aa1edfc822492920b0c879a20aa3d6baab9952afd4cc917eaae0baf9c7fad"
+            },
+            {
+                "name": "Cultural Fest",
+                "date": "November 10-12, 2023",
+                "location": "Amphitheater",
+                "image":"https://img.freepik.com/free-vector/watercolor-holi-background_23-2149257806.jpg?w=996&t=st=1690032280~exp=1690032880~hmac=b57404b47322813a15daeb4be9b0ffa162d887b92c0046e424ec45a743eb7273"
+            },
+            {
+                "name": "Research Expo",
+                "date": "December 15, 2023",
+                "location": "Research Center",
+                "image":"https://img.freepik.com/free-vector/education-background-design_1300-10.jpg?w=740&t=st=1690034187~exp=1690034787~hmac=b70609d89c98c7c6025a1b21c8018a57d35e67696a31682b2e43d2849d9f2054"
+            }
+        ],
+        "research_history": "College B has a strong research focus, particularly in the fields of engineering and technology.",
+        "sports": [
+            {
+                "name": "Cricket",
+                "team": "Stallions",
+                "achievements": "Intercollegiate champions in 2022",
+                "image":"https://img.freepik.com/free-photo/sports-stadium_1308-4848.jpg?w=1060&t=st=1690030825~exp=1690031425~hmac=78c8c8aa4ab0305d504d4161a3e134d3bc4725c11d6d2ee92fba3108f4cf8654"
+            },
+            {
+                "name": "Badminton",
+                "team": "Falcons",
+                "achievements": "National champions in 2021",
+                "image":"https://img.freepik.com/free-photo/badminton-concept-with-shuttlecock-racket_23-2149940874.jpg?w=996&t=st=1690030916~exp=1690031516~hmac=ff302fccb5093f6921503aa307178128128bcefa050f47ba410ac5f31201e5ac"
+            },
+            {
+                "name": "Athletics",
+                "team": "Rockets",
+                "achievements": "Several state-level medals",
+                "image":"https://img.freepik.com/free-photo/concentrated-multiethnic-athlete-group-ready-run_171337-10577.jpg?w=996&t=st=1690031012~exp=1690031612~hmac=0df61e3faf0007b3f50d56e0a2e975d03934ba381dd2ccd9b72b15b4b8c4fac6"
+            }
+        ],
+        "admission_process": "Prospective students can apply online through the college website or visit the admission office in person for assistance.",
+        "research_works": [
+            {
+                "title": "Biomechanics of Cricket Bowling Techniques",
+                "author": "Michael Johnson",
+                "publication_date": "April 2023"
+            },
+            {
+                "title": "Analyzing the Impact of Footwear on Badminton Performance",
+                "author": "Sarah Lee",
+                "publication_date": "June 2023"
+            },
+            {
+                "title": "Innovations in Renewable Energy Systems",
+                "author": "David Williams",
+                "publication_date": "March 2023"
+            },
+            {
+                "title": "Advancements in Artificial Intelligence: A Case Study",
+                "author": "Emily Brown",
+                "publication_date": "May 2023"
+            },
+            {
+                "title": "The Impact of Regular Exercise on Student Performance",
+                "author": "John Doe",
+                "publication_date": "May 2022"
+            },
+            {
+                "title": "Nutrition and Athletic Performance: A Comprehensive Study",
+                "author": "Jane Smith",
+                "publication_date": "July 2023"
+            }
+        ],
+        "sports_category": [
+            {
+                "category_name": "Team Sports",
+                "sports": [
+                    "Cricket",
+                    "Football",
+                    "Basketball"
+                ]
+            },
+            {
+                "category_name": "Individual Sports",
+                "sports": [
+                    "Badminton",
+                    "Athletics",
+                    "Swimming"
+                ]
+            }
+        ]
+    },
+    {
+        "image": "https://images.prothomalo.com/prothomalo-english/2021-10/ac8b4e26-1340-43a3-a565-58acf608b6a7/RU.jpg?w=1200&h=675",
+        "name": "Rajsahi University",
+        "admission_dates": "February 2024",
+        "events": [
+            {
+                "name": "Welcome Week",
+                "date": "September 5-10, 2023",
+                "location": "Central Field",
+                "image":"https://img.freepik.com/free-vector/realistic-back-school-background_52683-43399.jpg?w=996&t=st=1690034630~exp=1690035230~hmac=c68aa1edfc822492920b0c879a20aa3d6baab9952afd4cc917eaae0baf9c7fad"
+            },
+            {
+                "name": "Annual Sports Carnival",
+                "date": "November 18-20, 2023",
+                "location": "Sports Ground",
+                "image":"https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?w=996&t=st=1690031901~exp=1690032501~hmac=d92a0f93aac994af46d20450bec882e7b9fd00149d25978c5bfa31a93810cb05"
+            
+            },
+            {
+                "name": "Research Conference",
+                "date": "December 8, 2023",
+                "location": "Auditorium",
+                "image":"https://img.freepik.com/free-vector/education-background-design_1300-10.jpg?w=740&t=st=1690034187~exp=1690034787~hmac=b70609d89c98c7c6025a1b21c8018a57d35e67696a31682b2e43d2849d9f2054"
+            
+            }
+        ],
+        "research_history": "It is renowned for its innovative research projects in various academic disciplines.",
+        "sports": [
+            {
+                "name": "Tennis",
+                "team": "Gladiators",
+                "achievements": "Inter-university champions in 2022",
+                "image":"https://img.freepik.com/free-photo/sideways-tennis-racket-balls_23-2148218677.jpg?w=996&t=st=1690031383~exp=1690031983~hmac=4fa7e8a50907f6dd1300d05c510d2ec7cb12c81a4762e0b8edfdca641a65fd38"
+            },
+            {
+                "name": "Table Tennis",
+                "team": "Paddlers",
+                "achievements": "State-level gold medalists",
+                "image":"https://img.freepik.com/free-photo/young-man-playing-table-tennis-white-wall_155003-33165.jpg?w=996&t=st=1690031509~exp=1690032109~hmac=2d3e612943ce4ea0abcec64641517e426631e8f755d7e61b3977ae44ea4f3921"
+            },
+            {
+                "name": "Cricket",
+                "team": "Cyclones",
+                "achievements": "Regional runners-up in 2021",
+                "image":"https://img.freepik.com/free-photo/sports-stadium_1308-4848.jpg?w=1060&t=st=1690030825~exp=1690031425~hmac=78c8c8aa4ab0305d504d4161a3e134d3bc4725c11d6d2ee92fba3108f4cf8654"
+            }
+        ],
+        "admission_process": "Prospective students can apply online through the college website or contact the admission office for guidance.",
+        "research_works": [
+            {
+                "title": "Innovations in Renewable Energy Systems",
+                "author": "David Williams",
+                "publication_date": "March 2023"
+            },
+            {
+                "title": "Advancements in Artificial Intelligence: A Case Study",
+                "author": "Emily Brown",
+                "publication_date": "May 2023"
+            },
+            {
+                "title": "The Impact of Regular Exercise on Student Performance",
+                "author": "John Doe",
+                "publication_date": "May 2022"
+            },
+            {
+                "title": "Nutrition and Athletic Performance: A Comprehensive Study",
+                "author": "Jane Smith",
+                "publication_date": "July 2023"
+            },
+            {
+                "title": "Biomechanics of Cricket Bowling Techniques",
+                "author": "Michael Johnson",
+                "publication_date": "April 2023"
+            },
+            {
+                "title": "Analyzing the Impact of Footwear on Badminton Performance",
+                "author": "Sarah Lee",
+                "publication_date": "June 2023"
+            }
+        ],
+        "sports_category": [
+            {
+                "category_name": "Team Sports",
+                "sports": [
+                    "Cricket",
+                    "Football",
+                    "Hockey"
+                ]
+            },
+            {
+                "category_name": "Individual Sports",
+                "sports": [
+                    "Tennis",
+                    "Table Tennis",
+                    "Athletics"
+                ]
+            }
+        ]
+    }
+]
