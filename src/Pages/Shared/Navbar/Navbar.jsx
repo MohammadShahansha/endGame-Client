@@ -17,7 +17,7 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/allCollege">College</Link></li>
         <li><Link to="/admission">Admission</Link></li>
-        <li><Link to="/dashboard/myclass">My College</Link></li>
+        <li><Link to="/myCollege">My College</Link></li>
         {
             user ? <>
                 <button onClick={handelLogOut} className="btn btn-ghost">Logout</button>

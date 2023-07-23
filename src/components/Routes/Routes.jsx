@@ -8,6 +8,9 @@ import CollegeDetails from "../../Pages/Home/CollegeDetails/CollegeDetails";
 import Register from "../../Pages/Home/Register/Register";
 import AllCollege from "../../Pages/AllColleges/AllCollege/AllCollege";
 import DetailCollege from "../../Pages/AllColleges/DetailCollege/DetailCollege";
+import Admission from "../../Pages/Admission/Admission";
+import ApplyForm from "../../Pages/ApplyForm/ApplyForm/ApplyForm";
+import MyCollege from "../../Pages/ApplyForm/MyCollege/MyCollege";
 
   export const router = createBrowserRouter([
     {
@@ -39,6 +42,19 @@ import DetailCollege from "../../Pages/AllColleges/DetailCollege/DetailCollege";
           path: "detailCollege/:id",
           element:<DetailCollege></DetailCollege>,
           loader:({params}) => fetch(`http://localhost:5000/detailCollege/${params.id}`)
+        },
+        {
+          path: "admission",
+          element:<Admission></Admission>
+        },
+        {
+          path:"apply/:id",
+          element:<ApplyForm></ApplyForm>,
+          loader:({params}) => fetch(`http://localhost:5000/apply/${params.id}`)
+        },
+        {
+          path:"myCollege",
+          element:<MyCollege></MyCollege>
         }
       ]
     },
