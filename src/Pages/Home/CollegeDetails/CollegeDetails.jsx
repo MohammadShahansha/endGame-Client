@@ -45,7 +45,7 @@ const CollegeDetails = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='pb-5'>
                 <h2 className='font-bold text-[--text-color] text-5xl text-center py-5'>Eve<span className='text-[--main-color]'>nts</span></h2>
                 <div className='md:mx-[160px]'>
                     {

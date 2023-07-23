@@ -1,11 +1,12 @@
 import React from 'react';
 import College from '../College/College';
+import GraduateGallary from '../GraduateGallary/GraduateGallary';
 
 const Home = () => {
     return (
-        <div className='mt-16'>
+        <div className='mt-16 bg-[--bg-color] pb-10'>
             {/* Serch button--------------------------------------- */}
-            <div className="form-control bg-[#081b29] py-5">
+            <div className="form-control bg-[--second-bg-color] pt-10">
                 <div className="input-group flex justify-center">
                     <input type="text" placeholder="Search College" className="input text-xl border-gray-400 w-full px-2 md:w-[500px] lg:w-[700px]" />
                     <button className="btn btn-square">
@@ -14,6 +15,7 @@ const Home = () => {
                 </div>
             </div>
             <College></College>
+            <GraduateGallary></GraduateGallary>
 
         </div>
     );

@@ -1,0 +1,285 @@
+[
+    {
+      "college_image": "https://www.theindependentbd.com/assets/news_images/Dhaka-University14.jpg",
+      "name": "University of Dhaka",
+      "rating": 4.7,
+      "admission_date": "2023-09-01",
+      "num_research": 120,
+      "events": [
+        {
+          "event_name": "Annual Fest",
+          "event_image": "https://thumbs.dreamstime.com/b/two-day-long-jatiya-nabanna-utsab-festival-held-dhaka-started-thursday-bakultala-fine-arts-faculty-214643591.jpg",
+          "author": "John Doe",
+          "description": "A grand celebration of talents, music, and culture."
+        },
+        {
+          "event_name": "Tech Expo",
+          "event_image": "https://img.freepik.com/free-vector/realistic-technology-cyber-monday_23-2148705143.jpg?w=740&t=st=1690091036~exp=1690091636~hmac=2eda0994c32b855cb094d422b58c3996551eddf8c27de38352f2e5b2be066614",
+          "author": "Jane Smith",
+          "description": "An exhibition showcasing the latest technological innovations."
+        },
+        {
+          "event_name": "Cultural Week",
+          "event_image": "https://img.freepik.com/free-photo/medium-shot-men-playing-music_23-2149029461.jpg?w=900&t=st=1690091628~exp=1690092228~hmac=0e1d6f193cdd738ccafeb13ba9a86a25238ce345e0338ad9d341d6876e99a87d",
+          "author": "Alex Johnson",
+          "description": "A week-long celebration of diversity and traditions from around the world."
+        }
+      ],
+      "sports": [
+        {
+            "name": "Football",
+            "team": "Lions",
+            "achievements": "Multiple regional championships",
+            "image":"https://img.freepik.com/free-photo/soccer-players-action-professional-stadium_654080-1130.jpg?w=1060&t=st=1690026383~exp=1690026983~hmac=16f3fc832970cd054bb5693a6c6ff275050c93f294472b9d9043771949181bd6"
+        },
+        {
+            "name": "Basketball",
+            "team": "Tigers",
+            "achievements": "National runners-up in 2022",
+            "image":"https://img.freepik.com/free-photo/black-man-doing-sports-playing-basketball-sunrise-jumping-silhouette_285396-1440.jpg?w=996&t=st=1690031090~exp=1690031690~hmac=4f811948faadddb578b0ac2dc5b70b3e139cb60a9debf7e992f0d26c61be411d"
+        },
+        {
+            "name": "Swimming",
+            "team": "Sharks",
+            "achievements": "Olympic medalists",
+            "image":"https://img.freepik.com/free-photo/male-swimmer-swimming-butterfly-stroke_171337-7613.jpg?w=996&t=st=1690031171~exp=1690031771~hmac=0523d1e408d45a8331140fa2381f7bc7224ed8cd8cf121d8f5feb8bcd8124c24"
+        }
+    ]
+    },
+    {
+      "college_image": "https://jobbd.net/wp-content/uploads/2022/11/comilla-university-job-circular-2022.jpg",
+      "name": "Comilla University",
+      "rating": 4.5,
+      "admission_date": "2023-08-15",
+      "num_research": 80,
+      "events": [
+        {
+          "event_name": "College Day",
+          "event_image": "https://img.freepik.com/free-photo/hipster-freedom-youth-teenager-graphic-word_53876-13858.jpg?w=740&t=st=1690091473~exp=1690092073~hmac=2ebaf0609d0a3a34f12c39fb4da59a544c6decba056857c69c1fb62650d16692",
+          "author": "Michael Brown",
+          "description": "A day filled with fun activities for all students, faculty, and staff."
+        },
+        {
+          "event_name": "Science Fair",
+          "event_image": "https://img.freepik.com/free-vector/science-word-theme_23-2148540555.jpg?w=900&t=st=1690090697~exp=1690091297~hmac=4427bef94815e0db3478c210355727fc00d9d775daf71b4aa8f20c31239678a6",
+          "author": "Emma Davis",
+          "description": "Students showcase their scientific projects and experiments."
+        },
+        {
+          "event_name": "Literary Fest",
+          "event_image": "https://img.freepik.com/free-vector/wooden-table-with-books-realistic-style_23-2147605700.jpg?w=740&t=st=1690091328~exp=1690091928~hmac=d1a2350cd8b7d4b79f4e594e4decd7e6ca398f18ef5d2b72b47f9405cd93fc5d",
+          "author": "William Clark",
+          "description": "A celebration of literature, poetry, and storytelling."
+        }
+      ],
+      "sports": [
+        {
+            "name": "Cricket",
+            "team": "Stallions",
+            "achievements": "Intercollegiate champions in 2022",
+            "image":"https://img.freepik.com/free-photo/sports-stadium_1308-4848.jpg?w=1060&t=st=1690030825~exp=1690031425~hmac=78c8c8aa4ab0305d504d4161a3e134d3bc4725c11d6d2ee92fba3108f4cf8654"
+        },
+        {
+            "name": "Badminton",
+            "team": "Falcons",
+            "achievements": "National champions in 2021",
+            "image":"https://img.freepik.com/free-photo/badminton-concept-with-shuttlecock-racket_23-2149940874.jpg?w=996&t=st=1690030916~exp=1690031516~hmac=ff302fccb5093f6921503aa307178128128bcefa050f47ba410ac5f31201e5ac"
+        },
+        {
+            "name": "Athletics",
+            "team": "Rockets",
+            "achievements": "Several state-level medals",
+            "image":"https://img.freepik.com/free-photo/concentrated-multiethnic-athlete-group-ready-run_171337-10577.jpg?w=996&t=st=1690031012~exp=1690031612~hmac=0df61e3faf0007b3f50d56e0a2e975d03934ba381dd2ccd9b72b15b4b8c4fac6"
+        }
+    ]
+    },
+    {
+      "college_image": "https://www.ruseducation.in/wp-content/uploads/2022/01/University-of-Rajshahi.webp",
+      "name": "University of Rajshahi",
+      "rating": 4.8,
+      "admission_date": "2023-09-15",
+      "num_research": 150,
+      "events": [
+        {
+          "event_name": "Cultural Night",
+          "event_image": "https://img.freepik.com/free-vector/disco-party-poster-with-silhouettes_23-2147508832.jpg?w=740&t=st=1690090208~exp=1690090808~hmac=01382c9971892ddeb287e51496b4a9ce7137bc5071e2932fb73891f4cd078ada",
+          "author": "Sophia Lee",
+          "description": "An evening of music, dance, and performances from various cultures."
+        },
+        {
+          "event_name": "Tech Symposium",
+          "event_image": "https://img.freepik.com/free-vector/realistic-technology-cyber-monday_23-2148705143.jpg?w=740&t=st=1690091036~exp=1690091636~hmac=2eda0994c32b855cb094d422b58c3996551eddf8c27de38352f2e5b2be066614",
+          "author": "Daniel Wilson",
+          "description": "A gathering of tech enthusiasts to discuss the latest trends and innovations."
+        },
+        {
+          "event_name": "Entrepreneurship Summit",
+          "event_image": "https://example.com/college3_event3_image.jpg",
+          "author": "Oliver White",
+          "description": "A platform for aspiring entrepreneurs to pitch their business ideas."
+        }
+      ],
+      "sports": [
+        {
+            "name": "Tennis",
+            "team": "Gladiators",
+            "achievements": "Inter-university champions in 2022",
+            "image":"https://img.freepik.com/free-photo/sideways-tennis-racket-balls_23-2148218677.jpg?w=996&t=st=1690031383~exp=1690031983~hmac=4fa7e8a50907f6dd1300d05c510d2ec7cb12c81a4762e0b8edfdca641a65fd38"
+        },
+        {
+            "name": "Table Tennis",
+            "team": "Paddlers",
+            "achievements": "State-level gold medalists",
+            "image":"https://img.freepik.com/free-photo/young-man-playing-table-tennis-white-wall_155003-33165.jpg?w=996&t=st=1690031509~exp=1690032109~hmac=2d3e612943ce4ea0abcec64641517e426631e8f755d7e61b3977ae44ea4f3921"
+        },
+        {
+            "name": "Cricket",
+            "team": "Cyclones",
+            "achievements": "Regional runners-up in 2021",
+            "image":"https://img.freepik.com/free-photo/sports-stadium_1308-4848.jpg?w=1060&t=st=1690030825~exp=1690031425~hmac=78c8c8aa4ab0305d504d4161a3e134d3bc4725c11d6d2ee92fba3108f4cf8654"
+        }
+    ]
+    },
+    {
+      "college_image": "https://urquery.com/storage/2020/10/CU%20Administrative%20Building.jpg",
+      "name": "University of Chittagong",
+      "rating": 4.6,
+      "admission_date": "2023-08-30",
+      "num_research": 100,
+      "events": [
+        {
+          "event_name": "Sports Day",
+          "event_image": "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?w=900&t=st=1690090396~exp=1690090996~hmac=2b2bd75665eac0f04f6f851fde940e7f2e1f69b3d16e16c15e505d35b0460c94",
+          "author": "Sophie Turner",
+          "description": "A day dedicated to various sports competitions and fun activities."
+        },
+        {
+          "event_name": "Art Exhibition",
+          "event_image": "https://img.freepik.com/free-photo/woman-art-exhibition_53876-14379.jpg?w=900&t=st=1690090463~exp=1690091063~hmac=f8d513aec8eedf8d9a64f3761ba4a3c1282b8e6c3c7e401dd1282aa302e535ed",
+          "author": "Jake Anderson",
+          "description": "An exhibition showcasing the artistic talents of students and faculty."
+        },
+        {
+          "event_name": "Career Fair",
+          "event_image": "https://img.freepik.com/free-photo/top-view-career-written-note-with-pen-notepad-white-background-job-school-copybook-salary-college-office-color_179666-19733.jpg?w=900&t=st=1690090566~exp=1690091166~hmac=528f39d78c21bf3bdb562c512024a4b82457853a433e2f5629966fa282ff76d0",
+          "author": "Mia Roberts",
+          "description": "An opportunity for students to explore potential career options and connect with employers."
+        }
+      ],
+      "sports": [
+        {
+            "name": "Cricket",
+            "team": "Stallions",
+            "achievements": "Intercollegiate champions in 2022",
+            "image":"https://img.freepik.com/free-photo/sports-stadium_1308-4848.jpg?w=1060&t=st=1690030825~exp=1690031425~hmac=78c8c8aa4ab0305d504d4161a3e134d3bc4725c11d6d2ee92fba3108f4cf8654"
+        },
+        {
+            "name": "Badminton",
+            "team": "Falcons",
+            "achievements": "National champions in 2021",
+            "image":"https://img.freepik.com/free-photo/badminton-concept-with-shuttlecock-racket_23-2149940874.jpg?w=996&t=st=1690030916~exp=1690031516~hmac=ff302fccb5093f6921503aa307178128128bcefa050f47ba410ac5f31201e5ac"
+        },
+        {
+            "name": "Athletics",
+            "team": "Rockets",
+            "achievements": "Several state-level medals",
+            "image":"https://img.freepik.com/free-photo/concentrated-multiethnic-athlete-group-ready-run_171337-10577.jpg?w=996&t=st=1690031012~exp=1690031612~hmac=0df61e3faf0007b3f50d56e0a2e975d03934ba381dd2ccd9b72b15b4b8c4fac6"
+        }
+    ]
+    },
+    {
+      "college_image": "https://www.bproperty.com/blog/wp-content/uploads/v1.png",
+      "name": "Jahangirnagar University",
+      "rating": 4.9,
+      "admission_date": "2023-09-10",
+      "num_research": 200,
+      "events": [
+        {
+          "event_name": "Research Symposium",
+          "event_image": "https://img.freepik.com/free-vector/flat-medical-conference-illustrated_23-2148885345.jpg?w=900&t=st=1690091244~exp=1690091844~hmac=95464470f4a3b40ebba2db1f9e55dbb887fa9d043c067460ce8e0afcca292599",
+          "author": "David Allen",
+          "description": "A platform for researchers to present their findings and collaborate."
+        },
+        {
+          "event_name": "Science Week",
+          "event_image": "https://img.freepik.com/free-vector/science-word-theme_23-2148540555.jpg?w=900&t=st=1690090697~exp=1690091297~hmac=4427bef94815e0db3478c210355727fc00d9d775daf71b4aa8f20c31239678a6",
+          "author": "Emily Taylor",
+          "description": "A week celebrating science with workshops, lectures, and experiments."
+        },
+        {
+          "event_name": "Annual Sports Meet",
+          "event_image": "https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?w=900&t=st=1690090396~exp=1690090996~hmac=2b2bd75665eac0f04f6f851fde940e7f2e1f69b3d16e16c15e505d35b0460c94",
+          "author": "Ryan Walker",
+          "description": "An annual gathering of athletes to compete in various sports events."
+        }
+      ],
+      "sports": [
+        {
+            "name": "Football",
+            "team": "Lions",
+            "achievements": "Multiple regional championships",
+            "image":"https://img.freepik.com/free-photo/soccer-players-action-professional-stadium_654080-1130.jpg?w=1060&t=st=1690026383~exp=1690026983~hmac=16f3fc832970cd054bb5693a6c6ff275050c93f294472b9d9043771949181bd6"
+        },
+        {
+            "name": "Basketball",
+            "team": "Tigers",
+            "achievements": "National runners-up in 2022",
+            "image":"https://img.freepik.com/free-photo/black-man-doing-sports-playing-basketball-sunrise-jumping-silhouette_285396-1440.jpg?w=996&t=st=1690031090~exp=1690031690~hmac=4f811948faadddb578b0ac2dc5b70b3e139cb60a9debf7e992f0d26c61be411d"
+        },
+        {
+            "name": "Swimming",
+            "team": "Sharks",
+            "achievements": "Olympic medalists",
+            "image":"https://img.freepik.com/free-photo/male-swimmer-swimming-butterfly-stroke_171337-7613.jpg?w=996&t=st=1690031171~exp=1690031771~hmac=0523d1e408d45a8331140fa2381f7bc7224ed8cd8cf121d8f5feb8bcd8124c24"
+        }
+    ]
+    },
+    {
+      "college_image": "https://shweb.me/infointeriors/wp-content/uploads/2015/09/Dhaka-College.jpg",
+      "name": "Dhaka College",
+      "rating": 4.4,
+      "admission_date": "2023-08-20",
+      "num_research": 70,
+      "events": [
+        {
+          "event_name": "Science Exhibition",
+          "event_image": "https://img.freepik.com/free-vector/science-word-theme_23-2148540555.jpg?w=900&t=st=1690090697~exp=1690091297~hmac=4427bef94815e0db3478c210355727fc00d9d775daf71b4aa8f20c31239678a6",
+          "author": "Ella Moore",
+          "description": "An exhibition showcasing scientific projects and experiments by students."
+        },
+        {
+          "event_name": "Debate Competition",
+          "event_image": "https://img.freepik.com/free-vector/two-tribunes-debate-stage-illuminated-by-floodlights-realistic-colored-composition-3d-illustration_1284-60348.jpg?w=826&t=st=1690091174~exp=1690091774~hmac=6a18ecdbd03d509b72313e26d2caa5d1e71d970a95f47d2ba604b399f851911d",
+          "author": "John Smith",
+          "description": "A debate competition on various topics to promote critical thinking."
+        },
+        {
+          "event_name": "Sports Gala",
+          "event_image": "https://img.freepik.com/free-vector/gradient-national-sports-day-illustration_23-2148995776.jpg?w=900&t=st=1690090862~exp=1690091462~hmac=20f54a924a1c39feb9f8837947ca9c56c3711c5f615e9312d4cd31a701913722",
+          "author": "Sophia Johnson",
+          "description": "A celebration of sportsmanship and athletic achievements."
+        }
+      ],
+      "sports": [
+        {
+            "name": "Tennis",
+            "team": "Gladiators",
+            "achievements": "Inter-university champions in 2022",
+            "image":"https://img.freepik.com/free-photo/sideways-tennis-racket-balls_23-2148218677.jpg?w=996&t=st=1690031383~exp=1690031983~hmac=4fa7e8a50907f6dd1300d05c510d2ec7cb12c81a4762e0b8edfdca641a65fd38"
+        },
+        {
+            "name": "Table Tennis",
+            "team": "Paddlers",
+            "achievements": "State-level gold medalists",
+            "image":"https://img.freepik.com/free-photo/young-man-playing-table-tennis-white-wall_155003-33165.jpg?w=996&t=st=1690031509~exp=1690032109~hmac=2d3e612943ce4ea0abcec64641517e426631e8f755d7e61b3977ae44ea4f3921"
+        },
+        {
+            "name": "Cricket",
+            "team": "Cyclones",
+            "achievements": "Regional runners-up in 2021",
+            "image":"https://img.freepik.com/free-photo/sports-stadium_1308-4848.jpg?w=1060&t=st=1690030825~exp=1690031425~hmac=78c8c8aa4ab0305d504d4161a3e134d3bc4725c11d6d2ee92fba3108f4cf8654"
+        }
+    ]
+    }
+]
+  

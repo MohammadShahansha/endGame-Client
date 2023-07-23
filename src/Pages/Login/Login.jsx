@@ -1,21 +1,26 @@
+// import React from 'react';
 import React, { useContext } from 'react';
+// import logImg from '../../assets/Home/login.jpg'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../Provider/AuthProvider';
 import Swal from 'sweetalert2';
 // import { FaGoogle } from 'react-icons/fa';
+// import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 import { useForm } from "react-hook-form";
-import { AuthContext } from '../../Provider/AuthProvider';
 
 const Login = () => {
-
-    // console.log(AuthContext)
-    const  {signin}  = useContext(AuthContext);
-    console.log(signin)
+    // const handelLogin = event => {
+    //     event.preventDefault();
+    //     const form =event.target;
+    //     const email = form.email.value;
+    //     const password = form.password.value;
+    //     console.log(email, password)
+    // }
+    const { signin } = useContext(AuthContext)
     const navigate = useNavigate();
     const location = useLocation();
     const from = location.state?.from?.pathname || "/";
-    const { register, handleSubmit, formState: { errors } } = useForm();
-
-
+    const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
     const onSubmit = data => {
         signin(data.email, data.password)
@@ -28,14 +33,47 @@ const Login = () => {
             })
     }
 
+
+
     return (
+        // <div>
+        //     <div class="hero min-h-screen bg-base-200">
+        //         <div class="hero-content flex-col ">
+        //             <div class="text-center lg:text-left">
+        //                 <h1 class="text-5xl font-bold">Login now!</h1></div>
+        //             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+        //                 <form onSubmit={handelLogin} class="card-body">
+        //                     <div class="form-control">
+        //                         <label class="label">
+        //                             <span class="label-text">Email</span>
+        //                         </label>
+        //                         <input type="email" name='email' placeholder="email" class="input input-bordered" />
+        //                     </div>
+        //                     <div class="form-control">
+        //                         <label class="label">
+        //                             <span class="label-text">Password</span>
+        //                         </label>
+        //                         <input type="password" name='password' placeholder="password" class="input input-bordered" />
+        //                         <label class="label">
+        //                             <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+        //                         </label>
+        //                     </div>
+        //                     <div class="form-control mt-6">
+        //                         <button class="btn btn-primary">Login</button>
+        //                     </div>
+        //                 </form>
+        //             </div>
+        //         </div>
+        //     </div>
+
+        // </div>
         <div>
             <div className="hero min-h-screen bg-base-200">
 
                 <div className="hero-content grid md:grid-cols-2">
-                    <div className="text-center lg:text-left">
-                        {/* <img src={logImg} alt="" /> */}
-                    </div>
+                    {/* <div className="text-center lg:text-left">
+                        <img src={logImg} alt="" />
+                    </div> */}
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <h2 className='text-center text-3xl font-semibold mt-3'>Please Login</h2>
                         {/* <form onSubmit={handelLogin} className="card-body"> */}
@@ -66,6 +104,7 @@ const Login = () => {
                 </div>
             </div>
         </div>
+       
     );
 };
 

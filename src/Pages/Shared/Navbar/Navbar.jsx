@@ -1,21 +1,32 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../Provider/AuthProvider';
 
 const Navbar = () => {
+
+    const {user, logOut} = useContext(AuthContext)
+
+    const handelLogOut = () => {
+        logOut()
+        .then(() => {})
+        .catch(error => console.log(error))
+    }
+
+
     const navItem = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/classes">College</Link></li>
-        <li><Link to="/instructor">Admission</Link></li>
+        <li><Link to="/allCollege">College</Link></li>
+        <li><Link to="/admission">Admission</Link></li>
         <li><Link to="/dashboard/myclass">My College</Link></li>
-        <li><Link to="/login">Login</Link></li>
-        {/* {
+        {
             user ? <>
                 <button onClick={handelLogOut} className="btn btn-ghost">Logout</button>
-                <img className='rounded-full w-10 h-10' src={user.photoURL} alt="" />
+                <button className="btn btn-ghost">{user.displayName}</button>
+                
             </> : <>
                 <li><Link to="/login">Login</Link></li>
             </>
-        } */}
+        }
     </>
     return (
         <div className=' sticky top-0 z-10 mb-16'>

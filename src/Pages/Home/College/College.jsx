@@ -11,7 +11,7 @@ const College = () => {
             .then(data => setColleges(data))
     }, [])
 
-    console.log(colleges)
+    // console.log(colleges)
 
     return (
         <div className='bg-[--second-bg-color] py-10 px-3 md:px-28 lg:px-40'>
