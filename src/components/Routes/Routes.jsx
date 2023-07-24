@@ -13,11 +13,13 @@ import ApplyForm from "../../Pages/ApplyForm/ApplyForm/ApplyForm";
 import MyCollege from "../../Pages/ApplyForm/MyCollege/MyCollege";
 import Profile from "../../Pages/Profile/Profile/Profile";
 import PrivateRoute from "../PrivateRoute/PrivateRoute";
+import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
 
   export const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement:<ErrorPage></ErrorPage>,
       children:[
         {
             path: "/",

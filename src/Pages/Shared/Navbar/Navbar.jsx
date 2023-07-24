@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../../Provider/AuthProvider';
 
 const Navbar = () => {
@@ -14,17 +14,17 @@ const Navbar = () => {
 
 
     const navItem = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/allCollege">College</Link></li>
-        <li><Link to="/admission">Admission</Link></li>
-        <li><Link to="/myCollege">My College</Link></li>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/allCollege">College</NavLink></li>
+        <li><NavLink to="/admission">Admission</NavLink></li>
+        <li><NavLink to="/myCollege">My College</NavLink></li>
         {
             user ? <>
                 <button onClick={handelLogOut} className="btn btn-ghost font-semibold text-xl">Logout</button>
-                <Link to="/profile" className=" btn btn-ghost font-semibold text-xl">{user.displayName}</Link>
+                <NavLink to="/profile" className=" btn btn-ghost font-semibold text-xl">{user.displayName}</NavLink>
                 
             </> : <>
-                <li><Link to="/login">Login</Link></li>
+                <li><NavLink to="/login">Login</NavLink></li>
             </>
         }
     </>
@@ -36,7 +36,7 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 font-semibold text-[--text-color] hover:text--[--main-color] bg-black rounded-box w-52">
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 font-semibold text-[--main-color] hover:text--[--main-color] bg-black rounded-box w-52">
                             {navItem}
                         </ul>
                     </div>
