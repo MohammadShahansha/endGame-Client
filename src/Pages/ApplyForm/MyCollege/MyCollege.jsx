@@ -44,11 +44,11 @@ const MyCollege = () => {
 
     return (
         <div className='bg-[--second-bg-color]'>
-            <div className='mx-20 py-10'>
+            <div className='md:mx-5 lg:mx-20 py-10'>
                 {
-                    myCollege.map(item => <div w-full className='flex gap-10 items-center' key={item._id}>
-                        <figure className='w-1/2'><img src={item.image} alt="" className=' border-2 border-solid border-[--main-color]' /></figure>
-                        <div className='w-1/2'>
+                    myCollege.map(item => <div w-full className='md:flex gap-10 items-center' key={item._id}>
+                        <figure className='md:w-1/2'><img src={item.image} alt="" className=' lg:border-2 lg:border-solid lg:border-[--main-color]' /></figure>
+                        <div className='md:w-1/2 px-3'>
                             <h2 className='font-semibold text-xl text-[--text-color]'>Name: <span className='font-normal'>{item.name}</span></h2>
                             <h2 className='font-semibold text-xl text-[--text-color]'>Subject: <span className='font-normal'>{item.subject}</span></h2>
                             <h2 className='font-semibold text-xl text-[--text-color]'>Email: <span className='font-normal'>{item.email}</span></h2>

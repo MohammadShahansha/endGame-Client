@@ -36,14 +36,14 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 font-semibold text-[--text-color] bg-black rounded-box w-52">
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 font-semibold text-[--text-color] hover:text--[--main-color] bg-black rounded-box w-52">
                             {navItem}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Admission#31</a>
+                    <a className="btn btn-ghost normal-case text-[--main-color] text-xl">Admission#31</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal text-[--text-color] font-semibold text-xl px-1">
+                    <ul className="menu menu-horizontal text-[--main-color] hover:text--[--main-color] font-semibold text-xl px-1">
                         {navItem}
                     </ul>
                 </div>

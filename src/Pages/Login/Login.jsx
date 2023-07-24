@@ -1,12 +1,10 @@
-// import React from 'react';
+
 import React, { useContext } from 'react';
-// import logImg from '../../assets/Home/login.jpg'
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../Provider/AuthProvider';
 import Swal from 'sweetalert2';
-// import { FaGoogle } from 'react-icons/fa';
-// import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 import { useForm } from "react-hook-form";
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Login = () => {
     
@@ -37,7 +35,7 @@ const Login = () => {
 
                 <div className="hero-content">
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-[--bg-color]">
-                        <h2 className='text-center text-3xl font-semibold mt-3 text-[--text-color]'>Please Login</h2>
+                        <h2 className='text-center text-3xl font-semibold mt-3 text-[--text-color]'>Please <span className='text-[--main-color]'>Login</span></h2>
                         {/* <form onSubmit={handelLogin} className="card-body"> */}
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                             <div className="form-control">
@@ -59,7 +57,7 @@ const Login = () => {
                                 <input className="bg-[--main-color] py-3 rounded-md text-[--bg-color] font-semibold text-xl cursor-pointer" type="submit" value="Login" />
                                 <p className='text-center text-[--text-color] font-semibold text-lg'><span>Don't have an Account?</span><Link to="/register" className='text-[--main-color] underline'>Register</Link></p>
                             </div>
-                            {/* <SocialLogin></SocialLogin> */}
+                            <SocialLogin></SocialLogin>
                         </form>
 
                     </div>

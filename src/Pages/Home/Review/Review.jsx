@@ -12,7 +12,7 @@ const Review = () => {
     return (
         <div className='bg-[-bg-color] pt-10 text-[--text-color]'>
             <h2 className='text-5xl font-bold text-[--text-color] mb-5 text-center'>Rev<span className='text-[--main-color]'>iews</span></h2>
-            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mx-20'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 px-2 md:mx-20'>
                 {
                     reviews.map(item => <div key={item._id}>
                         <div className="rounded-2xl bg-[--second-bg-color] shadow-xl">

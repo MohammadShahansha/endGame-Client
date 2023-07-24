@@ -41,7 +41,7 @@ const ApplyForm = () => {
             <div className='w-full rounded-md py-10'>
                 <div>
                     <div className="px-10 rounded-md md:my-10">
-                        <h2 className='text-5xl font-bold text-[--text-color] text-center mb-5'>Apply <span className='text-[--main-color]'>College</span></h2>
+                        <h2 className='text-4xl md:text-5xl font-bold text-[--text-color] text-center mb-5'>Apply <span className='text-[--main-color]'>College</span></h2>
                         <form onSubmit={handleSubmit(onSubmit)} className='mb-5 text-[--text-color]'>
                             <div className="md:flex gap-5">
                                 <div className="form-control md:w-1/2">

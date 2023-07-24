@@ -14,7 +14,7 @@ const College = () => {
     // console.log(colleges)
 
     return (
-        <div className='bg-[--second-bg-color] py-10 px-3 md:px-28 lg:px-40'>
+        <div className='bg-[--second-bg-color] py-10 px-3 md:px-10 lg:px-40'>
             <h2 className='text-4xl md:text-5xl font-bold text-[--text-color] mb-5 text-center'>Populer <span className='text-[--main-color]'>Colleges</span></h2>
             {
                 colleges.map(college => <div key={college._id}>

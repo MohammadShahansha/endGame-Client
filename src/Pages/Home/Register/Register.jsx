@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useForm } from "react-hook-form";
 import Swal from 'sweetalert2';
 import { AuthContext } from '../../../Provider/AuthProvider';
+import SocialLogin from '../../Shared/SocialLogin/SocialLogin';
 // import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 
@@ -38,7 +39,7 @@ const Register = () => {
                 <div className="hero-content ">
                     
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl  bg-[--bg-color]">
-                        <h2 className='text-center text-3xl font-semibold mt-3 text-[--text-color]'>Please Register</h2>
+                        <h2 className='text-center text-3xl font-semibold mt-3 text-[--text-color]'>Please <span className='text-[--main-color]'>Register</span></h2>
                         <form onSubmit={handleSubmit(onSubmit)} className="card-body">
                             <div className="form-control">
                                 <label className="label">
@@ -80,7 +81,7 @@ const Register = () => {
                             </div>
 
                         </form>
-                        {/* <SocialLogin></SocialLogin> */}
+                        <SocialLogin></SocialLogin>
                     </div>
                 </div>
             </div>

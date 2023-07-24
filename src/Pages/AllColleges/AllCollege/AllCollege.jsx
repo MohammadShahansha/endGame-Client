@@ -11,7 +11,7 @@ const AllCollege = () => {
     console.log(allCollege)
     return (
         <div className='bg-[--second-bg-color] py-10 '>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-20 rounded-md'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:mx-20 rounded-md'>
                 {
                     allCollege.map(item => <div className='bg-[--bg-color] rounded-lg' key={item._id}>
                         <h2 className='text-[--text-color] font-bold text-2xl text-center py-5'>{item.name}</h2>
