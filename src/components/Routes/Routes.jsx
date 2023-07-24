@@ -11,6 +11,7 @@ import DetailCollege from "../../Pages/AllColleges/DetailCollege/DetailCollege";
 import Admission from "../../Pages/Admission/Admission";
 import ApplyForm from "../../Pages/ApplyForm/ApplyForm/ApplyForm";
 import MyCollege from "../../Pages/ApplyForm/MyCollege/MyCollege";
+import Profile from "../../Pages/Profile/Profile/Profile";
 
   export const router = createBrowserRouter([
     {
@@ -55,6 +56,10 @@ import MyCollege from "../../Pages/ApplyForm/MyCollege/MyCollege";
         {
           path:"myCollege",
           element:<MyCollege></MyCollege>
+        },
+        {
+          path: "profile",
+          element:<Profile></Profile>
         }
       ]
     },

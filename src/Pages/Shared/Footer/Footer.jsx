@@ -5,7 +5,7 @@ const Footer = () => {
         <div className=' bg-[--bg-color] text-[--text-color]'>
             <footer className="md:flex md:justify-between p-10 text-[--text-color]">
                 <div className='flex flex-col items-center text-center text-2xl font-medium mb-3'>
-                    <p className='my-auto font-bold text-xl'>Arts & <br />Craft School</p>
+                    <p className='my-auto font-bold text-xl'>Admission#31</p>
                 </div>
                 <div className='flex flex-col text-center'>
                     <span className="font-bold text-xl mt-4">Services</span>
@@ -15,11 +15,11 @@ const Footer = () => {
                     <a className="link link-hover">Advertisement</a>
                 </div>
                 <div className='flex flex-col text-center mb-5'>
-                    <span className="font-bold text-xl mt-5">Company</span> 
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <span className="font-bold text-xl mt-5">Contacts</span> 
+                    <a className="link link-hover">##013-88845222</a>
+                    <a className="link link-hover">##233-56364556</a>
+                    <a className="link link-hover">contact@gmail.com</a>
+                    <a className="link link-hover">contact@gmail.com</a>
                 </div>
                 <div className='flex flex-col text-center'>
                     <span className="font-bold text-xl mt-5">Legal</span>
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
                 
             </footer>
-            <div className="px-10 py-4 border-t text-[--text-color] border-base-300">
+            <div className="px-10 py-4 text-[--text-color] ">
                     <div className="md:place-self-center ">
                         <div className="flex justify-center gap-3 text-7xl">
                             <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current text-sky-600"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>

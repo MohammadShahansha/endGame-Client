@@ -20,8 +20,8 @@ const Navbar = () => {
         <li><Link to="/myCollege">My College</Link></li>
         {
             user ? <>
-                <button onClick={handelLogOut} className="btn btn-ghost">Logout</button>
-                <button className="btn btn-ghost">{user.displayName}</button>
+                <button onClick={handelLogOut} className="btn btn-ghost font-semibold text-xl">Logout</button>
+                <Link to="/profile" className=" btn btn-ghost font-semibold text-xl">{user.displayName}</Link>
                 
             </> : <>
                 <li><Link to="/login">Login</Link></li>
@@ -40,7 +40,7 @@ const Navbar = () => {
                             {navItem}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Arts & Craft School</a>
+                    <a className="btn btn-ghost normal-case text-xl">Admission#31</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal text-[--text-color] font-semibold text-xl px-1">

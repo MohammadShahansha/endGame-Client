@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-// import { AuthContext } from '../../../Provider/AuthProvider';
 import { useForm } from 'react-hook-form';
 import Swal from 'sweetalert2';
 import { AuthContext } from '../../../Provider/AuthProvider';

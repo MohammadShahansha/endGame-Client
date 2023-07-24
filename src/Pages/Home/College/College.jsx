@@ -15,11 +15,11 @@ const College = () => {
 
     return (
         <div className='bg-[--second-bg-color] py-10 px-3 md:px-28 lg:px-40'>
-            <h2 className='text-5xl font-bold text-[--text-color] mb-5 text-center'>Populer <span className='text-[--main-color]'>Colleges</span></h2>
+            <h2 className='text-4xl md:text-5xl font-bold text-[--text-color] mb-5 text-center'>Populer <span className='text-[--main-color]'>Colleges</span></h2>
             {
                 colleges.map(college => <div key={college._id}>
                     <div className="grid grid-cols-1 md:grid-cols-2 bg-[--bg-color] rounded-md items-center shadow-xl mb-3">
-                        <figure className='ps-7'><img className='h-[450px] w-[500px] rounded-md' src={college.image} alt="Album" /></figure>
+                        <figure className=' md:ps-4 lg:ps-7'><img className='md:h-[450px] md:w-[500px] rounded-md' src={college.image} alt="Album" /></figure>
                         <div className="card-body text-[--text-color]">
                             <h2 className="font-bold text-3xl mb-2">{college.name}</h2>
                             <p className='font-bold text-xl'>Admission: <span className='font-medium text-lg'>{college.admission_dates}</span></p>

@@ -12,7 +12,7 @@ import img6 from '../../../assets/images/img6.jpg'
 const GraduateGallary = () => {
     return (
         <div>
-            <h2 className='font-bold text-5xl text-[--text-color] text-center py-5'>Graduation <span className='text-[--main-color]'>Gallery</span></h2>
+            <h2 className='font-bold text-4xl md:text-5xl text-[--text-color] text-center py-5'>Graduation <span className='text-[--main-color]'>Gallery</span></h2>
             <Carousel>
                 <div>
                     <img className='opacity-70' src={img1} />

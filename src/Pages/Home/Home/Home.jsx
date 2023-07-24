@@ -1,6 +1,8 @@
 import React from 'react';
 import College from '../College/College';
 import GraduateGallary from '../GraduateGallary/GraduateGallary';
+import Review from '../Review/Review';
+import Research from '../Research/Research';
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
             </div>
             <College></College>
             <GraduateGallary></GraduateGallary>
+            <Research></Research>
+            <Review></Review>
 
         </div>
     );
