@@ -19,7 +19,7 @@ const ApplyForm = () => {
         if (user && user.email) {
             // console.log(classe)
             const savedClass = { name, image, phone, birthday, address, subject, email, id: _id}
-            fetch('http://localhost:5000/candidate', {
+            fetch('https://endgame-server.onrender.com/candidate', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'

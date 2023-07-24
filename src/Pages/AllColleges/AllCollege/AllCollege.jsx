@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const AllCollege = () => {
     const [allCollege, setAllCollege] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/allColleges')
+        fetch('https://endgame-server.onrender.com/allColleges')
             .then(res => res.json())
             .then(data => setAllCollege(data))
     }, [])

@@ -36,7 +36,7 @@ import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
         {
             path: "eachCollege/:id",
             element: <PrivateRoute><CollegeDetails></CollegeDetails></PrivateRoute>,
-            loader: ({params}) => fetch(`http://localhost:5000/eachCollege/${params.id}`)
+            loader: ({params}) => fetch(`https://endgame-server.onrender.com/eachCollege/${params.id}`)
         },
         {
           path: "allCollege",
@@ -45,7 +45,7 @@ import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
         {
           path: "detailCollege/:id",
           element:<PrivateRoute><DetailCollege></DetailCollege></PrivateRoute>,
-          loader:({params}) => fetch(`http://localhost:5000/detailCollege/${params.id}`)
+          loader:({params}) => fetch(`https://endgame-server.onrender.com/detailCollege/${params.id}`)
         },
         {
           path: "admission",
@@ -54,11 +54,11 @@ import ErrorPage from "../../Pages/ErrorPage/ErrorPage";
         {
           path:"apply/:id",
           element:<ApplyForm></ApplyForm>,
-          loader:({params}) => fetch(`http://localhost:5000/apply/${params.id}`)
+          loader:({params}) => fetch(`https://endgame-server.onrender.com/apply/${params.id}`)
         },
         {
           path:"myCollege",
-          element:<MyCollege></MyCollege>
+          element:<PrivateRoute><MyCollege></MyCollege></PrivateRoute>
         },
         {
           path: "profile",

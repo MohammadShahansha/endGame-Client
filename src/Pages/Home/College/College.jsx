@@ -6,7 +6,7 @@ const College = () => {
     const [colleges, setColleges] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/colleges')
+        fetch('https://endgame-server.onrender.com/colleges')
             .then(res => res.json())
             .then(data => setColleges(data))
     }, [])

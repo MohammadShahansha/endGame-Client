@@ -4,7 +4,7 @@ const Review = () => {
     const [reviews, setReviews] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/getreview')
+        fetch('https://endgame-server.onrender.com/getreview')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])

@@ -7,7 +7,7 @@ import { AuthContext } from '../../../Provider/AuthProvider';
 const MyCollege = () => {
     const [myCollege, setMyCollege] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/candidate')
+        fetch('https://endgame-server.onrender.com/candidate')
             .then(res => res.json())
             .then(data => setMyCollege(data))
     }, [])
@@ -22,7 +22,7 @@ const MyCollege = () => {
         if (user && user.email) {
             // console.log(classe)
             const savedClass = { feedback, rating}
-            fetch('http://localhost:5000/review', {
+            fetch('https://endgame-server.onrender.com/review', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
